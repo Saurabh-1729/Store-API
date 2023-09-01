@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 
 require('dotenv').config() // to require the files in the .env files
-
 // aynsc errors
 require('express-async-errors') // we dont need to setup out own middleware
 
@@ -41,5 +40,7 @@ const start = async () => {
 };
 
 start();
+
+//4:39
 
 
